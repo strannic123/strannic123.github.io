@@ -208,6 +208,7 @@ input[type="password"]{
 
 .social_row {
     display: flex;
+    margin-bottom: 22px;
 }
 
 
@@ -242,5 +243,77 @@ input[type="password"]{
     font-size: 48px;
     line-height: 1.2;
     color: #cccccc;
+}
+
+.tabs {
+    background-color: #F5F5F5;
+}
+
+.container {
+}
+
+.tabs_row {
+    padding-top: 147px;
+    display: flex;
+    padding-bottom: 115px;
+}
+
+.tab {
+    flex: 1;
+}
+
+.tab button{
+    width: 112px;
+    height: 112px;
+    border: none;
+    margin: 0.5px 0;
+}
+
+.tab .tab1{
+    background-color: #FF8B38;
+}
+
+.tab .tab2{
+    background-color: #333333;
+}
+
+.tab .tab3{
+    background-color: #333333;
+}
+
+.tabs_description {
+    flex: 3;
+    margin-left: 100px;
+}
+
+.tab_title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #000000;
+}
+
+.tab_text {
+    margin-top: 52px;
+    line-height: 20px;
+    color: #86878b;
+
+}
+
+.tabs_img_right {
+    flex: 2;
+    margin-left: 100px;
+}
+
+.tabs_description button{
+    margin-top: 52px;
+    width: 121px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 12px 25px;
+    background-color: #FF8B38;
+    border: none;
 }
 
