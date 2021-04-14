@@ -415,3 +415,156 @@ input[type="password"]{
 .fa.fa-cloud-download-alt {
 }
 
+
+.picture {
+    background-color: #F5F5F5;
+}
+
+.picture_row {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 130px;
+}
+
+.picture_descr {
+    flex: 1.5;
+    margin-top: 105px;
+
+}
+
+.descr_title {
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.descr_divider {
+    margin-top: 30px;
+
+}
+
+.descr_text {
+    margin-top: 30px;
+    line-height: 20px;
+    padding-right: 195px;
+}
+
+.picture_image {
+    flex: 1;
+    margin-top: 90px;
+    background-color: #9A9A9A;
+    font-size: 33.1px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.picture_image_block {
+    margin: 145px 135px 85px;
+
+}
+
+.awesome {
+}
+
+.container {
+}
+
+.awesome_row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 105px;
+}
+
+.awesome_title {
+
+}
+
+.awesome_title_title {
+    margin-top: 105px;
+    font-size: 36px;
+    line-height: 43px;
+    color: #212121;
+}
+
+.awesome_divider {
+    margin-top: 30px;
+}
+
+.awesome_subtitle {
+    margin-top: 30px;
+}
+
+.awesome_cards {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.awesome_card1 {
+}
+
+.card1_logo {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ff8b38;
+}
+
+.fa-stack.fa-lg {
+    border: 2px solid #ff8b38;
+    border-radius: 50%;
+}
+
+.fa.fa-circle-o.fa-stack-2x {
+}
+
+.fa.fa-cloud-upload.fa-stack-1x {
+}
+
+.card1_title, .card2_title, .card3_title {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.card1_text, .card2_text, .card3_text {
+    margin-top: 25px;
+}
+
+.awesome_card2 {
+}
+
+.card2_logo {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ff8b38;
+}
+
+.card2_title {
+}
+
+.card2_text {
+}
+
+.awesome_card3 {
+}
+
+.card3_logo {
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ff8b38;
+}
+
+.card3_title {
+}
+
+.card_text {
+}
+
