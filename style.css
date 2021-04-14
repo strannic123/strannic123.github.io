@@ -344,7 +344,6 @@ input[type="password"]{
 }
 
 .sublist_image_block {
-
     background-color: #9A9A9A;
     padding: 110px 137px;
     text-align: center;
@@ -495,12 +494,18 @@ input[type="password"]{
 
 .awesome_subtitle {
     margin-top: 30px;
+
 }
 
 .awesome_cards {
     display: flex;
-    margin-top: 80px;
+    /*margin-top: 80px;*/
     justify-content: space-between;
+    margin: 80px -16px 0 -16px;
+}
+
+.awesome_card1, .awesome_card2, .awesome_card3{
+    padding: 0 16px;
 }
 
 .awesome_card1 {
@@ -568,3 +573,244 @@ input[type="password"]{
 .card_text {
 }
 
+
+.pricing {
+    background-color: #F5F5F5;
+    padding-bottom: 95px;
+}
+
+.container {
+}
+
+.pricing_row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.pricing_text {
+    margin-top: 105px;
+
+}
+
+.pricing_title {
+    font-size: 36px;
+    line-height: 43px;
+    color: #212121;
+}
+
+.pricing_divider {
+    margin-top: 30px;
+}
+
+.pricing_subtitle {
+    margin-top: 30px;
+}
+
+.pricing_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.pricing_card1, .pricing_card2, .pricing_card3{
+    width: 343px;
+}
+
+.card_wrapper{
+    background-color: #333333;
+}
+
+.pricing_card1 {
+}
+
+.card_title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 21px 0;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.card_price {
+    font-family: 'Raleway', sans-serif;
+}
+
+.price {
+}
+
+.dollar {
+
+    font-size: 35px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.dollar_price {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 94px;
+
+}
+
+.price_comment {
+    margin-top: 28px;
+    padding-bottom: 20px;
+}
+
+.card_popular {
+    background-color: #FF8B38;
+    min-height: 5px;
+
+}
+
+.popular_text{
+    padding: 14px 0;
+    min-height: 5px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.pricing_card1 .popular_text, .pricing_card3 .popular_text{
+    visibility: hidden;
+}
+
+.price_description ul{
+    display: flex;
+    margin: 0 auto;
+    padding-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.price_description ul>li{
+    list-style: none;
+    border-bottom: 1px solid #F5F5F5;
+
+
+
+}
+
+.price_description {
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #86878b;
+}
+
+.pricing_card2 {
+}
+
+.pricing_card3 {
+}
+
+
+.customers {
+    background-color: #FFFFFF;
+}
+
+.container {
+}
+
+.customers_row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.customers_text {
+}
+
+.customers_title {
+    margin-top: 105px;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.customers_divider {
+    margin-top: 30px;
+}
+
+.customers_subtitle {
+    margin-top: 30px;
+    line-height: 20px;
+
+}
+
+.customers_cards {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.customers_card1, .customers_card2, .customers_card3{
+    max-width: 275px;
+}
+
+.wrapper_customer_card {
+
+}
+
+.arrow-down{
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top: 12px solid #F5F5F5;
+    margin-left: 25px;
+}
+
+.customer_card1_text,  .customer_card2_text, .customer_card3_text{
+    background-color: #F5F5F5;
+    padding: 24px 12px 41px;
+}
+
+.wrapper_customer_name {
+    margin-top: 5px;
+    display: flex;
+}
+
+.customer_image {
+    min-width: 75px;
+    min-height: 75px;
+    border-radius: 50%;
+    background-color: #9A9A9A;
+}
+
+.wrapper_customer_image_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    flex: 1;
+    padding-left: 15px;
+}
+
+.customer_image_name_name {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+}
+
+.customer_position {
+    margin-top: 5px;
+    line-height: 1.2;
+}
+
+.customers_card2 {
+}
+
+.customers_card3 {
+}
