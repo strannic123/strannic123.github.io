@@ -260,6 +260,7 @@ input[type="password"]{
 
 .tab {
     flex: 1;
+
 }
 
 .tab button{
@@ -267,6 +268,10 @@ input[type="password"]{
     height: 112px;
     border: none;
     margin: 0.5px 0;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 .tab .tab1{
@@ -315,5 +320,98 @@ input[type="password"]{
     padding: 12px 25px;
     background-color: #FF8B38;
     border: none;
+}
+
+.sublist {
+    background-color: #FFFFFF;
+}
+
+.container {
+}
+
+.sublist_row {
+    display: flex;
+    margin-top: 111px;
+    margin-bottom: 110px;
+    justify-content: center;
+    text-align: start;
+
+}
+
+.sublist_image {
+    flex: 1;
+
+}
+
+.sublist_image_block {
+
+    background-color: #9A9A9A;
+    padding: 110px 137px;
+    text-align: center;
+    font-size: 33.1px;
+    line-height: 1.2;
+    color: #ffffff;
+
+}
+
+.sublist_description {
+    flex: 1.5;
+    padding-left: 190px;
+}
+
+.sublist_title {
+    font-size: 20px;
+    line-height: 43px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.sublist_divider_title {
+    margin-top: 30px;
+}
+
+.sublist_text {
+    margin-top: 30px;
+}
+
+.sublist_icon_card {
+  margin-top: 45px;
+}
+
+.sublist_card {
+    display: flex;
+}
+
+.card_icon span{
+    border-radius: 50%;
+}
+
+.card_icon {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #ff8b38;
+}
+
+.fa.fa-cloud-upload-alt {
+}
+
+.icon_block_card{
+    margin-left: 30px;
+    margin-bottom: 42px;
+}
+
+.icon_card_title {
+    line-height: 17px;
+    font-weight: 600;
+    color: #212121;
+}
+
+.icon_card_text {
+    margin-top: 12px;
+    line-height: 20px;
+    color: #86878b;
+}
+
+.fa.fa-cloud-download-alt {
 }
 
