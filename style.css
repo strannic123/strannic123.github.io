@@ -616,6 +616,9 @@ input[type="password"]{
 
 .pricing_card1, .pricing_card2, .pricing_card3{
     width: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .card_wrapper{
@@ -623,6 +626,9 @@ input[type="password"]{
 }
 
 .pricing_card1 {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: flex-end;*/
 }
 
 .card_title {
@@ -642,7 +648,6 @@ input[type="password"]{
 }
 
 .dollar {
-
     font-size: 35px;
     line-height: 24px;
     font-weight: 700;
@@ -679,6 +684,10 @@ input[type="password"]{
     visibility: hidden;
 }
 
+.price_description {
+    height: 343px;
+}
+
 .price_description ul{
     display: flex;
     margin: 0 auto;
@@ -687,9 +696,12 @@ input[type="password"]{
     justify-content: center;
     text-align: center;
     background-color: #FFFFFF;
+
+
 }
 
 .price_description ul>li{
+    padding: 14px 0;
     list-style: none;
     border-bottom: 1px solid #F5F5F5;
 
@@ -707,7 +719,8 @@ input[type="password"]{
 .pricing_card2 {
 }
 
-.pricing_card3 {
+.pricing_card1 .card_popular, .pricing_card3 .card_popular{
+    height: 5px;
 }
 
 
@@ -730,7 +743,7 @@ input[type="password"]{
 
 .customers_title {
     margin-top: 105px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     line-height: 43px;
     font-weight: 400;
