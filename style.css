@@ -17,6 +17,7 @@ body{
 .container {
     max-width: 1110px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .nav {
@@ -95,7 +96,7 @@ body{
 }
 
 .header_title {
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 36px;
     line-height: 1.2;
     font-weight: 400;
@@ -110,7 +111,7 @@ body{
 .header_subtitle {
     margin-top: 30px;
     opacity: 0.8;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 23px;
     font-weight: 300;
@@ -119,7 +120,7 @@ body{
 
 .btn_header_left{
     margin-top: 44px;
-    width: 135px;
+    max-width: 135px;
     height: 42px;
     font-size: 15px;
     line-height: 1.2;
@@ -166,8 +167,11 @@ body{
 }
 
 .wrapper_input{
-    background-color: #F5F5F5;
-    /*margin: 30px 45px 0 45px;*/
+    padding: 0 38px;
+}
+
+.wrapper_input input{
+    background-color: #FFFFFF;
 }
 
 .form-group {
@@ -482,6 +486,7 @@ input[type="password"]{
 }
 
 .awesome_title_title {
+    font-family: "Raleway", sans-serif;
     margin-top: 105px;
     font-size: 36px;
     line-height: 43px;
@@ -595,6 +600,7 @@ input[type="password"]{
 }
 
 .pricing_title {
+    font-family: "Raleway", sans-serif;
     font-size: 36px;
     line-height: 43px;
     color: #212121;
@@ -615,10 +621,12 @@ input[type="password"]{
 }
 
 .pricing_card1, .pricing_card2, .pricing_card3{
-    width: 343px;
+    /*width: 343px;*/
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    flex: 1 1 343px;
+    margin: 0 20px;
 }
 
 .card_wrapper{
@@ -626,9 +634,6 @@ input[type="password"]{
 }
 
 .pricing_card1 {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: flex-end;*/
 }
 
 .card_title {
@@ -915,9 +920,15 @@ input[type="password"]{
 }
 
 .contact_row {
+    display: flex;
+    flex-direction: column;
 }
 
-.contact_row > button{
+.wrapper_contact_btn{
+    display: inline-block;
+}
+
+.wrapper_contact_btn > button{
     margin: 45px 0 80px;
     padding: 15px 22px;
     font-size: 15px;
@@ -1046,6 +1057,93 @@ textarea{
 
 .footer_text {
     margin: 15px 0;
+}
+
+@media screen and (max-width: 769px){
+    .header_title{
+        font-size: 30px;
+    }
+    .social_row{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .social_icon{
+        margin-top: 15px;
+    }
+    .tabs_img_right{
+        display: none;
+    }
+    .tabs_description button{
+        margin-top: 72px;
+    }
+    .sublist_row{
+        margin-bottom: 10px;
+    }
+    .sublist_description{
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+    .descr_text{
+        padding-right: 50px;
+    }
+    .picture_row{
+        padding-bottom: 50px;
+    }
+    .picture_descr{
+        margin-top: 50px;
+        margin-left: 33px;
+    }
+    .picture_image{
+        margin-top: 50px;
+        margin-right: 30px;
+    }
+    .pricing {
+        padding-bottom: 70px;
+    }
+    .pricing_cards {
+        margin-top: 50px;
+    }
+    .pricing_card1, .pricing_card2, .pricing_card3{
+        margin: 0 10px;
+    }
+    .pricing_text {
+        margin-top: 70px;
+    }
+    .customers_row {
+        padding-bottom: 50px;
+    }
+    .customers_cards{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .customers_card1{
+        margin-right: 50px;
+    }
+    .customers_card3{
+        margin-top: 30px;
+    }
+    .customers_title{
+        margin-top: 60px;
+    }
+    .design_subtitle{
+        margin: 25px 25px 0px 25px;
+    }
+    .design_text {
+        margin: 30px 0;
+    }
+    .contact_title {
+        margin-top: 70px;
+    }
+    .wrapper_contact_btn > button {
+        margin: 30px 0 50px;
+    }
+    .form_details{
+        padding: 0 30px;
+    }
+    .user {
+        margin-right: 15px;
+    }
 }
 
 
