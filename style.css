@@ -827,3 +827,64 @@ input[type="password"]{
 
 .customers_card3 {
 }
+
+
+.design {
+    background-color: #9A9A9A;
+}
+
+.container {
+}
+
+.design_row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.design_title {
+    margin-top: 75px;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.design_divider {
+    margin-top: 25px;
+}
+
+.design_subtitle {
+    margin-top: 25px;
+    opacity: 0.8;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.wrapper_btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.design_btn {
+    margin-top: 30px;
+    padding: 12px 33px;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+    background-color: #9A9A9A;
+}
+
+.design_text {
+    margin: 22px 0;
+    opacity: 0.21;
+    font-size: 16.4px;
+    line-height: 1.2;
+    color: #ffffff;
+}
