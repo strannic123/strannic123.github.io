@@ -888,3 +888,164 @@ input[type="password"]{
     line-height: 1.2;
     color: #ffffff;
 }
+
+#name {
+}
+
+#email {
+}
+
+#subject {
+}
+
+#message {
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact .container{
+    width: 100%;
+}
+
+.container_contact {
+}
+
+.contact_row {
+}
+
+.contact_row > button{
+    margin: 45px 0 80px;
+    padding: 15px 22px;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #FF9B51;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact_title {
+    margin-top: 105px;
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #212121;
+}
+
+.contact_divider {
+    margin-top: 30px;
+}
+
+.contact_subtitle {
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.contact_form {
+    margin-top: 80px;
+}
+
+.container {
+
+}
+
+.form_details {
+    display: flex;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #bdbdbd;
+    opacity: 0.5;
+
+}
+
+.user {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.form-group {
+    margin: 30px 0;
+}
+
+.form-group label{
+    margin-top: 15px;
+}
+
+.form-group > input{
+    margin: 0 auto;
+}
+
+.message {
+    flex: 1;
+    margin-left: 40px;
+}
+
+.form-group textarea{
+    min-width: 100%;
+    border: none;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,1,0.15);
+}
+
+textarea{
+}
+
+.form-group>input{
+    min-width: 100%;
+}
+
+
+.footer {
+    background-color: #000000;
+}
+
+.container {
+}
+
+.footer_row {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer_icon {
+    margin-top: 20px;
+}
+
+.footer_icon i{
+    padding: 0 20px;
+}
+
+.fa.fa-facebook-f.fa-2x {
+}
+
+.fa.fa-twitter.fa-2x {
+}
+
+.fa.fa-google-plus.fa-2x {
+}
+
+.fa.fa-pinterest-p.fa-2x {
+}
+
+.fa.fa-instagram.fa-2x {
+}
+
+.fa.fa-stumbleupon.fa-2x {
+}
+
+.fa.fa-wifi.fa-2x {
+}
+
+.footer_text {
+    margin: 15px 0;
+}
+
+
