@@ -1058,7 +1058,38 @@ textarea{
 .footer_text {
     margin: 15px 0;
 }
-
+@media screen and (max-width: 1025px){
+    .container{
+        padding: 0 25px;
+    }
+    .header_body{
+        margin-bottom: 100px;
+    }
+    .tabs_row {
+        padding-bottom: 90px;
+    }
+    .tabs_description button {
+        margin-top: 90px;
+    }
+    .sublist_row {
+        margin-bottom: 60px;
+    }
+    .sublist_description{
+        padding-left: 100px;
+    }
+    .picture_row {
+        padding-bottom: 100px;
+    }
+    .descr_text {
+        padding-right: 70px;
+    }
+    .form_details .user{
+        margin-right: 20px;
+    }
+    .form_details .message{
+        margin-left: 20px;
+    }
+}
 @media screen and (max-width: 769px){
     .header_body{
         margin-bottom: 70px;
