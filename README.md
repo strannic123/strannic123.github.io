@@ -2,7 +2,9 @@
 
 ## Блочная верстка на flex box
 
+## Сайт размещен по ссылке  https://strannic123.github.io
+
 ## ![Imgur](https://i.imgur.com/fMEbkda.jpg)
 
-## 
+
 
